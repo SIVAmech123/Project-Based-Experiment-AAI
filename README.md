@@ -45,7 +45,7 @@ sentiment_counts = data['Sentiment'].value_counts()
 plt.bar(sentiment_counts.index, sentiment_counts.values)
 plt.title("Facebook Comments Sentiment Distribution")
 plt.xlabel("Sentiment")
-plt.ylabel("Number of Comments")
+plt.ylabel("Number of Comments") 
 plt.show()
 ```
 ### Step 7: Display some positive comments
