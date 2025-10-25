@@ -5,6 +5,7 @@
 <H3>Objective:<H3>
 Perform sentiment analysis using your Facebook data and filter the data that has only Positive feedback for the code given in the following link.
 <H3>Program:</H3>
+    ```
 import pandas as pd
 from textblob import TextBlob
 
@@ -37,7 +38,7 @@ print(neutral_df)
 # Save filtered data
 neutral_df.to_csv("neutral_facebook_posts.csv", index=False, encoding="utf-8")
 print("✅ Neutral posts saved to neutral_facebook_posts.csv")
-
+```
 <H3>Output:</H3>
 <img width="629" height="108" alt="image" src="https://github.com/user-attachments/assets/7f395b14-fe84-43e1-ad8e-90cc6f01c92c" />
 
