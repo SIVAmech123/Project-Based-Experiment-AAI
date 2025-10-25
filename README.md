@@ -32,9 +32,5 @@ print(neutral_df)
 neutral_df.to_csv("neutral_facebook_posts.csv", index=False, encoding="utf-8")
 print("✅ Neutral posts saved to neutral_facebook_posts.csv")
 ```
-### Output:
-<img width="605" height="124" alt="image" src="https://github.com/user-attachments/assets/9c1891d0-decb-4768-9d8f-493d7b201d6b" />
-
-
-### Inference:
-Perform sentiment analysis using your Facebook data and filter the data that has only Positive feedback for the code given in the following link.
+<H3>OUTPUT:</H3>
+<img width="587" height="96" alt="image" src="https://github.com/user-attachments/assets/dcf43334-ff96-460f-bce5-48b383145788" />
