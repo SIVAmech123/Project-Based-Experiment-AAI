@@ -39,7 +39,7 @@ print(neutral_df)
 neutral_df.to_csv("neutral_facebook_posts.csv", index=False, encoding="utf-8")
 print("✅ Neutral posts saved to neutral_facebook_posts.csv")
 ```
-<H3>Output:</H3>
+### Output:
 <img width="629" height="108" alt="image" src="https://github.com/user-attachments/assets/7f395b14-fe84-43e1-ad8e-90cc6f01c92c" />
 
 <H3>Inference:</H3>
