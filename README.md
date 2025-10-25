@@ -10,7 +10,7 @@ The objective of this project is to analyze Facebook post comments or feedback u
 import pandas as pd
 from textblob import TextBlob
 import matplotlib.pyplot as plt
-```
+``` 
   
 ### Step 1: Load Facebook data (CSV format)
 ```
